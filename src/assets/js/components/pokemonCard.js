@@ -61,7 +61,7 @@ export function createPokemonCard(pokemon) {
     })
 
     const cardLink = createElement('a', {
-        href: `/pokemon?name=${pokemon.name}#about`,
+        href: `/pokemon.html?name=${pokemon.name}#about`,
         style: 'text-decoration: none;',
         children: [
             pokemonCard

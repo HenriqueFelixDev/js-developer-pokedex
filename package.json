@@ -2,10 +2,10 @@
   "name": "pokedex",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "http-server src/"
+    "dev": "parcel ./src/*.html",
+    "build": "parcel build ./src/*.html"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "url": "https://github.com/HenriqueFelixDev/js-developer-pokedex/issues"
   },
   "homepage": "https://github.com/HenriqueFelixDev/js-developer-pokedex#readme",
-  "dependencies": {
-    "http-server": "^14.1.1"
+  "devDependencies": {
+    "parcel": "^2.8.1"
   }
 }

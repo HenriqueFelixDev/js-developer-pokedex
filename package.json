@@ -1,0 +1,24 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "http-server src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueFelixDev/js-developer-pokedex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueFelixDev/js-developer-pokedex/issues"
+  },
+  "homepage": "https://github.com/HenriqueFelixDev/js-developer-pokedex#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

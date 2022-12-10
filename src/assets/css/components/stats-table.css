@@ -1,0 +1,30 @@
+.stats-table {
+    font-size: 0.75rem;
+    margin: 1rem 0.5rem;
+}
+
+.stats-table__stat {
+    display: flex;
+    justify-content: stretch;
+    gap: 0.5rem;
+    margin: 0.75rem 0;
+}
+
+.stats-table__stat > *:last-child {
+    flex: 1;
+}
+
+.stats-table__stat > * {
+    min-width: 1.5rem;
+    text-transform: capitalize;
+}
+
+.stats-table__title {
+    color: #bbbbbb;
+    width: 6.25rem;
+}
+
+.stats-table meter::-webkit-meter-bar {
+    border: none;
+    height: 3px;
+}

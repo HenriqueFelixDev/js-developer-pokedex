@@ -1,0 +1,16 @@
+.load-more-button {
+    display: block;
+    margin: 1.25rem auto 0;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+    transition: all .15s linear;
+}
+
+.load-more-button:hover {
+    opacity: 0.9;
+}
